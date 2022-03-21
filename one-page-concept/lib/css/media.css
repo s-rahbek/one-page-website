@@ -1,0 +1,157 @@
+/* TABLET RESPONSE */ 
+
+@media screen and (max-width: 768px) {
+#myVideo {
+  max-height: 100%;
+  max-width: fit-content;
+  }
+   #logo img {
+    height: 25px;
+   }
+   #smartmatch-logo {
+  width: 50%;
+  margin: 50px auto 30px;
+   }
+   header {
+    min-height: 600px;
+    max-width: 768px;
+   }
+   #about {
+    height: 250px;
+   }
+  .col-4,
+  .col-6, 
+  .col-8 {
+  min-width: 70%;
+}
+  }
+
+@media screen and (max-width: 768px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: inline;
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   #logo img {
+    height: 25px;
+   }
+  #smartmatch-logo {
+  width: 80%;
+   }
+   header {
+   }
+   #about {
+    height: 250px;
+   }
+  }
+
+@media screen and (max-width: 600px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: inline;
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+    font-size: 15px;
+  }
+}
+
+/* MOBILE RESPONSE */ 
+
+@media screen and (max-width: 480px) {
+   #logo img {height: 25px;}
+   
+   header {
+    min-height: 600px;
+    max-width: 480px;
+   }
+   
+   #about {
+    height: 250px;
+   }
+  .col-4,
+  .col-6, 
+  .col-8 {
+  min-width: 90%;
+  }
+
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+    font-size: 15px;
+  }
+  
+  h1 {font-size: 35px;}
+
+  #section-4 h3 {
+    font-size: 25px;
+  }
+  
+  #offer-button {
+    margin: auto 26%;
+   }
+
+#section-2 .col-6, 
+#section-2 .col-4,
+#section-3 .col-6, 
+#section-3 .col-4 {
+  margin: 0 auto;
+}
+
+#section-2 .row,
+#section-3 .row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ #brand-carousel .carousel-item img {
+  max-height: 20px;
+  margin: auto;
+}
+
+}

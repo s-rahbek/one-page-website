@@ -1,0 +1,78 @@
+article {
+	padding: 40px;
+}
+
+#smartology-insights .col {
+	min-width: 100%;
+} 
+
+#insights-content {
+  margin: 50px 0;
+}
+
+#insights-button {
+  width: 130px;
+  height: 30px;
+  border: 1px solid #ff003f;
+  border-radius: 15px;
+  text-align: center;
+  margin:5px 0 15px;
+}
+
+#insights-button a {
+  font-size: 12px;
+  line-height: 30px;
+}
+
+#insights-button:hover {
+  background-color: #ff003f;
+  color: #fff;
+}
+
+.date,
+.social,
+.information {
+	display: inline-flex;
+	width: 100%;
+}
+
+#post-preview  {
+	padding: 10px 0;
+}
+
+#social p {
+	margin: auto;
+}
+
+#social img {
+	margin: 0 auto;
+}
+
+.pagination {
+	padding-left: 20px;
+}
+
+.page-item.active .page-link {
+	background-color: #ff003f;
+    border-color: #ff003f;
+}
+
+.page-link,
+.page-link:hover {
+	color: #ff003f;
+}
+
+.post-content a {
+   padding-bottom: 5px;
+}
+
+.post-content a:hover {
+   color: #ff003f;
+}
+
+.post-header {
+	width: 80%;
+  padding-bottom: 20px;
+}
+
+
